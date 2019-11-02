@@ -1,1 +1,54 @@
-{% extends basic %}
+{% extends "base.html" %}
+
+
+<!-- Speakers -->
+<section id="speakers" class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Conoce a los</small>
+          <h2>Oradores</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="{% static 'img/sacha.jpg'%}" alt="foto de sasha">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Sasha Lisfzyc</h5>
+                <div class="badges mb-2">
+                  <span class="badge badge-warning">Javascript</span>
+                  <span class="badge badge-info">React</span>
+                </div>
+                <p class="card-text">Desarrollador Fullstack argentino.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="{% static 'img/leonidas.jpeg' %}" alt="foto de sasha">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Leonidas Esteban</h5>
+                <div class="badges mb-2">
+                    <span class="badge badge-primary">Javascript</span>
+                    <span class="badge badge-secondary">React</span>
+                  </div>
+                <p class="card-text">Frontend developer. React expert</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top" src="{% static 'img/freddy.jpeg' %}" alt="foto de sasha">
+              <div class="card-body">
+                <h5 class="card-title mb-0">Freddy Vega</h5>
+                <span class="badge badge-primary">entrepreneurship</span>
+                    <span class="badge badge-secondary">Startup</span>
+                <p class="card-text">Co-founder of Platzi.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /Speakers -->
