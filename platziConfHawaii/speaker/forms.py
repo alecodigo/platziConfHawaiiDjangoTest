@@ -1,10 +1,10 @@
 """Speaker Forms"""
 
 # from django
-from django import forms
-from models import Speaker
+from django.forms import ModelForm
+from speaker.models import Speaker
 
-class  SpeakerForm(forms.Form):
+class  SpeakerForm(ModelForm):
 	"""Spearker Form"""
 	class Meta:
 		model = Speaker

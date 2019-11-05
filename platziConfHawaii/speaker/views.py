@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.views.generic  import TemplateView
 
 # Forms
-from . import SpeakerForm
+from speaker.forms import SpeakerForm
 
 
 
