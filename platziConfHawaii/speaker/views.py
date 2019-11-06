@@ -7,17 +7,13 @@ from django.views.generic  import TemplateView
 from speaker.forms import SpeakerForm
 
 
-
-
-
 class  PlatziConf(TemplateView):
-	"""View for PlatziConf"""
+    """View for PlatziConf"""
 
-	template_name='base.html'
+    template_name='base.html'
 
 class  PlatziConfSpeaker(TemplateView):
-	"""View for Speakers"""
+    """View for Speakers"""
 
-	template_name = 'speaker/speaker.html'
-	form_class = SpeakerForm
-
+    template_name = 'speaker.html'
+    form_class = SpeakerForm
