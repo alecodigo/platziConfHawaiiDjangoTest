@@ -12,8 +12,8 @@ class  PlatziConf(TemplateView):
 
     template_name='base.html'
 
-class  PlatziConfSpeaker(TemplateView):
-    """View for Speakers"""
+#class  PlatziConfSpeaker(TemplateView):
+#    """View for Speakers"""
 
-    template_name = 'speaker.html'
-    form_class = SpeakerForm
+#   template_name = 'speaker.html'
+    #form_class = SpeakerForm
